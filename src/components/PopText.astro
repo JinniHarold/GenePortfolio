@@ -1,0 +1,18 @@
+---
+interface Props {
+  text: string;
+  tag?: "span" | "h1" | "h2";
+  id?: string;
+  class?: string;
+}
+
+const { text, tag = "span", id, class: className } = Astro.props;
+const Tag = tag;
+const words = text.trim().split(/\s+/);
+---
+
+<Tag id={id} class:list={["pop-text", className]} aria-label={text}>
+  {words.map((word, index) => (
+    <span class="pop-word" style={`--i: ${index}`} aria-hidden="true">{word}{index < words.length - 1 ? " " : ""}</span>
+  ))}
+</Tag>

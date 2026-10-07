@@ -7,8 +7,9 @@ Theme: CSS vars, light/dark, toggle in nav, saved in localStorage, default to sy
 Light: bg #F7F7F5, text #1F2328, accent #3E6E8E, accent2 #4F73A0
 Dark: bg #14171A, text #E6E8EA, accent #7FA8C4, accent2 #9DB4D6
 Fonts: Inter (self-hosted); JetBrains Mono for tech tags only.
-Style: calm, muted, clear hierarchy (big h1, medium titles, small details), 1100px max width, generous whitespace.
-Motion: subtle scroll fade-in and hover only; none under prefers-reduced-motion.
+Style: calm, muted, clear hierarchy, 1280px max width, side padding clamp(1rem, 4vw, 3rem), generous whitespace.
+Motion: subtle scroll fade-in, accent lines that fill on scroll, hover states; none under prefers-reduced-motion.
 A11y: semantic HTML, one h1, AA contrast, keyboard nav, modal closes on Esc with focus trap, alt text.
 Perf: lazy-load images, mobile-first, hamburger nav on mobile.
 Output: only changed files, complete code, no explanations unless asked.
+Word-pop text animation (PopText component) only on hero heading and section titles.
