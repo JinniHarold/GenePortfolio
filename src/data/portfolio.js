@@ -145,7 +145,7 @@ export const skills = [
   { category: "AI & Automation", items: ["n8n", "Azure OpenAI", "OpenAI API", "Perplexity AI", "Prompt engineering"] },
   { category: "Web & Mobile", items: ["ASP.NET Core MVC", "Bootstrap", "HTML/CSS", "Kotlin", "Android SDK", "PHP"] },
   { category: "APIs", items: ["REST", "Stripe", "Notion", "Slack", "Cloudinary", "Webhooks"] },
-  { category: "Cloud & Deploy", items: ["Azure", "Railway", "Render", "Netlify", "DigitalOcean", "GitHub Actions"] },
+  { category: "Cloud & Deploy", items: ["Azure", "Railway", "Render", "Netlify", "DigitalOcean", "GitHub Actions, Vercel"] },
   { category: "Languages", items: ["Python", "Java", "C", "C++", "C#", "Kotlin", "SQL"] },
   { category: "Databases", items: ["SQL Server", "PostgreSQL", "MongoDB", "MS Access"] },
   { category: "Design", items: ["Figma", "Framer"] },
